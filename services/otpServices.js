@@ -1,5 +1,5 @@
-const Otp = require("root/EasyCalmodels/otpmodel");
-const logger = require("root/EasyCalutils/logger");
+const Otp = require("/root/EasyCalmodels/otpmodel");
+const logger = require("/root/EasyCalutils/logger");
 const bcrypt = require("bcryptjs");
 
 const deleteUserOtpsByUserId = async (userId) => {

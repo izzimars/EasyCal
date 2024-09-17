@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("root/EasyCalutils/validate");
-const schema = require("root/EasyCalschema/calculatorValidator");
-const calculatorController = require("root/EasyCalcontrollers/calculatorControlers");
+const validate = require("/root/EasyCalutils/validate");
+const schema = require("/root/EasyCalschema/calculatorValidator");
+const calculatorController = require("/root/EasyCalcontrollers/calculatorControlers");
 const debtrouter = express.Router();
-const middleware = require("root/EasyCalutils/middleware");
+const middleware = require("/root/EasyCalutils/middleware");
 
 debtrouter.get(
   "/average",

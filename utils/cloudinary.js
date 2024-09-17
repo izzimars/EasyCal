@@ -1,7 +1,7 @@
 const cloudinary = require("cloudinary").v2;
 const { CloudinaryStorage } = require("multer-storage-cloudinary");
 const multer = require("multer");
-const config = require("root/EasyCalconfig");
+const config = require("/root/EasyCalconfig");
 
 // Configure Cloudinary with your credentials
 cloudinary.config({

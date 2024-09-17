@@ -1,5 +1,5 @@
-const Debt = require("root/EasyCalmodels/debtModel");
-const logger = require("root/EasyCalutils/logger");
+const Debt = require("/root/EasyCalmodels/debtModel");
+const logger = require("/root/EasyCalutils/logger");
 
 const findDebtById = async (debtId) => {
   try {
