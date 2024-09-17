@@ -1,12 +1,12 @@
-const userServices = require("/root/EasyCalservices/userServices");
-const logger = require("/root/EasyCalutils/logger");
+const userServices = require("/root/EasyCal/services/userServices");
+const logger = require("/root/EasyCal/utils/logger");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const config = require("/root/EasyCalutils/config");
-const otpServices = require("/root/EasyCalservices/otpServices");
-const emailServices = require("/root/EasyCalservices/emailServices");
-const calculatorServices = require("/root/EasyCalservices/calculatorServices");
-const debtServices = require("/root/EasyCalservices/debtServices");
+const config = require("/root/EasyCal/utils/config");
+const otpServices = require("/root/EasyCal/services/otpServices");
+const emailServices = require("/root/EasyCal/services/emailServices");
+const calculatorServices = require("/root/EasyCal/services/calculatorServices");
+const debtServices = require("/root/EasyCal/services/debtServices");
 
 const signup = async (req, res, next) => {
   const { username, email, password } = req.body;

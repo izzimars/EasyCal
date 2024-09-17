@@ -1,7 +1,7 @@
-const calculatorServices = require("/root/EasyCalservices/calculatorServices");
-const logger = require("/root/EasyCalutils/logger");
-const userServices = require("/root/EasyCalservices/userServices");
-const debtServices = require("/root/EasyCalservices/debtServices");
+const calculatorServices = require("/root/EasyCal/services/calculatorServices");
+const logger = require("/root/EasyCal/utils/logger");
+const userServices = require("/root/EasyCal/services/userServices");
+const debtServices = require("/root/EasyCal/services/debtServices");
 
 const average = async (req, res, next) => {
   try {

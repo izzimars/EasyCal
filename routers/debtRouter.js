@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("/root/EasyCalutils/validate");
-const schema = require("/root/EasyCalschema/debtValidator");
-const debtController = require("/root/EasyCalcontrollers/DebtControllers");
+const validate = require("/root/EasyCal/utils/validate");
+const schema = require("/root/EasyCal/schema/debtValidator");
+const debtController = require("/root/EasyCal/controllers/DebtControllers");
 const debtrouter = express.Router();
-const middleware = require("/root/EasyCalutils/middleware");
+const middleware = require("/root/EasyCal/utils/middleware");
 
 debtrouter.post(
   "/:id",

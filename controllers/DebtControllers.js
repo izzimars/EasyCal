@@ -1,6 +1,6 @@
-const debtServices = require("/root/EasyCalservices/debtServices");
-const logger = require("/root/EasyCalutils/logger");
-const userServices = require("/root/EasyCalservices/userServices");
+const debtServices = require("/root/EasyCal/services/debtServices");
+const logger = require("/root/EasyCal/utils/logger");
+const userServices = require("/root/EasyCal/services/userServices");
 
 const getDebt = async (req, res, next) => {
   try {

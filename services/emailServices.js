@@ -1,6 +1,6 @@
-const logger = require("/root/EasyCalutils/logger");
+const logger = require("/root/EasyCal/utils/logger");
 const nodemailer = require("nodemailer");
-const config = require("/root/EasyCalutils/config");
+const config = require("/root/EasyCal/utils/config");
 
 //Send Emails
 const sendEmail = async (
@@ -46,7 +46,7 @@ const sendOtpEmail = async (user_email, otp) => {
       <div style="background-color: #f0f0f0; padding: 20px;max-width: 640px;margin:auto;">
         <section style="max-width: 600px; margin: auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
           <div style="display:block;"><img src= "${logoURL}" alt="Diary Dove logo" style="width:43px; height:36px; display:inline;">
-            <h1 style="color: #1E3A8A; display:inline; ">EASYCAL</h1>
+            <h1 style="color: #1E3A8A; display:inline; ">EasyCal/</h1>
           </div>
           <h3>Email Verification</h3>
           <p>Enter <b>${otp}</b> in the app to complete your verification. OTP expires in 6 minutes.</p>
