@@ -1,4 +1,4 @@
-const logger = require("../utils/logger");
+const logger = require("root/EasyCalutils/logger");
 
 const calculateWeightedAverage = (salaries) => {
   try {

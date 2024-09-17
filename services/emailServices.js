@@ -1,6 +1,6 @@
-const logger = require("../utils/logger");
+const logger = require("root/EasyCalutils/logger");
 const nodemailer = require("nodemailer");
-const config = require("../utils/config");
+const config = require("root/EasyCalutils/config");
 
 //Send Emails
 const sendEmail = async (

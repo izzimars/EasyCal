@@ -1,8 +1,8 @@
-const logger = require("../utils/logger");
-const config = require("../utils/config");
+const logger = require("root/EasyCalutils/logger");
+const config = require("root/EasyCalutils/config");
 const jwt = require("jsonwebtoken");
-const userServices = require("../services/userServices");
-//const redisService = require("../services/redisService");
+const userServices = require("root/EasyCalservices/userServices");
+//const redisService = require("root/EasyCalservices/redisService");
 
 const verifyToken = async (req, res, next) => {
   try {

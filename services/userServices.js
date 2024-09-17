@@ -1,6 +1,6 @@
-const User = require("../models/userModel");
-const debtServices = require("../services/debtServices");
-const logger = require("../utils/logger");
+const User = require("root/EasyCalmodels/userModel");
+const debtServices = require("root/EasyCalservices/debtServices");
+const logger = require("root/EasyCalutils/logger");
 
 const findUserByOne = async (field, value) => {
   try {

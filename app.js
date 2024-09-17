@@ -1,20 +1,20 @@
 const express = require("express");
-//require("./instrument.js");
+//require("root/EasyCalinstrument.js");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-const config = require("./utils/config");
-const logger = require("./utils/logger");
+const config = require("root/EasyCalutils/config");
+const logger = require("root/EasyCalutils/logger");
 //const Sentry = require("@sentry/node");
 const cors = require("cors");
-const middleware = require("./utils/middleware");
+const middleware = require("root/EasyCalutils/middleware");
 const app = express();
 const session = require("express-session");
 const passport = require("passport");
-const userRoutes = require("./routers/userRouter");
-const debtRoutes = require("./routers/debtRouter");
-const calcRoutes = require("./routers/calculatorRouter");
-//const redisClient = require("./utils/reddisConnection.js");
-//require("./utils/passport");
+const userRoutes = require("root/EasyCalrouters/userRouter");
+const debtRoutes = require("root/EasyCalrouters/debtRouter");
+const calcRoutes = require("root/EasyCalrouters/calculatorRouter");
+//const redisClient = require("root/EasyCalutils/reddisConnection.js");
+//require("root/EasyCalutils/passport");
 
 //DATABASES
 mongoose.set("strictQuery", false);

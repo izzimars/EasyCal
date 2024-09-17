@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("../utils/validate");
-const schema = require("../schema/validator");
-const userController = require("../controllers/userControllers");
+const validate = require("root/EasyCalutils/validate");
+const schema = require("root/EasyCalschema/validator");
+const userController = require("root/EasyCalcontrollers/userControllers");
 const userrouter = express.Router();
-const middleware = require("../utils/middleware");
+const middleware = require("root/EasyCalutils/middleware");
 
 userrouter.post(
   "/signup",
