@@ -1,4 +1,4 @@
-const Otp = require("/root/EasyCal/models/otpmodel");
+const Otp = require("/root/EasyCal/models/otpModel");
 const logger = require("/root/EasyCal/utils/logger");
 const bcrypt = require("bcryptjs");
 
